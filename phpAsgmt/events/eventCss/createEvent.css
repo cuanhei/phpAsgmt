@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 May 2024, 1:08:26 am
+    Author     : LIM CUAN HEI
+*/
+*{
+    font-family: arial;
+    margin:0;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero2.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centers the inner div horizontally */
+    align-items: center; /* Centers the inner div vertically */
+}
+
+.hero > div > h1,
+.hero > div > h3{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+.selectHallDiv {
+   cursor: pointer;
+}
+.selected {
+    background-color: rgba(0,0,0,0.1);
+    animation: pressDown 0.2s;
+}
+div.shadow{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    width:80%;
+}
+            .stepContainer {
+                width: 100%;
+                max-width: 600px; /* Adjust this width as needed */
+                margin: auto;
+                margin-top:50px;
+                margin-bottom:50px;
+            }
+
+            .progressBar {
+                width: 100%;
+                background-color: #ddd;
+                border-radius: 5px;
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+
+            .progress {
+                height: 20px;
+                background-color: green;
+                transition: width 0.3s ease-in-out;
+            }
+input[type="submit"],
+input[type="button"]{
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    padding: 10px 20px;        /* Some padding */
+    border: none;              /* No border */
+    border-radius: 4px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer/hand icon */
+    width:80%;
+    margin:10px;
+    margin-top:30px;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+td:last-child {
+    text-align: left;
+}
+
+input[type="date"] {
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    padding: 8px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="text"] {
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    padding: 8px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="number"] {
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    padding: 8px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="time"] {
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    padding: 8px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="file"] {
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    padding: 8px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+select{
+    width: 100%; /* Adjust the width as needed */
+    padding: 8px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+input[type="button"]{
+    background-color: #8B0000; /* Dark red background */
+    margin-bottom: 30px;
+}
+input[type="button"]:hover{
+    background-color: #5A0000; /* Darker red on hover */
+}
+
+
+    
+@keyframes pressDown {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.98);
+      margin-top: 5px;
+    }
+    100% {
+      transform: scale(1);
+    }
+}
