@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 May 2024, 12:27:45 pm
+    Author     : LIM CUAN HEI
+*/
+*{
+    font-family: arial;
+    margin:0;
+    padding:0;
+}
+.center{
+    text-align:center;
+}
+.whitetext{
+    color:white;
+}
+.error, .info
+{
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.9em;
+    list-style-position: inside;
+}
+
+.error
+{
+    border: 2px solid #FBC2C4;
+    background-color: #FBE3E4;
+    color: #8A1F11;
+}
+
+.info
+{
+    border: 2px solid #92CAE4;
+    background-color: #D5EDF8;
+    color: #205791;
+}
+
+
