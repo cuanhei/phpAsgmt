@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 17 May 2024, 7:42:08 pm
+    Author     : user
+*/
+
+
+
+.memberDetails td{
+    margin: 0px;
+    background-color: white;
+    padding: 5px 100px;
+    
+}
+
+.memberDetails th{
+    margin: 0px;
+   padding: 5px 100px;
+    background-color: black;
+    color: white
+}
+ 
+.memberDetails {
+        border-spacing: 1px;
+        background-color: black;
+        margin: auto;
+}
+
+.btnDelete {
+    border: none;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    background: red;
+}
