@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 12 May 2024, 3:56:13 pm
+    Author     : user
+*/
+
+*{
+    font-family:arial,sans-serif,serif;
+}
+
+div.login{  
+    background-color: rgba(242,242,242,0.2);
+    width: 35%;
+    position: relative;
+    margin: auto auto auto auto;
+    padding-top: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px grey ;
+    text-shadow: 0px 1px 0.5px grey;
+}
+div.title {
+    padding:20px;
+    text-align: center;
+    margin-bottom: 3px; 
+}
+
+div.title h2{
+    margin-bottom: 10px;
+}
+
+p.title{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.terms{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10%;
+    color: grey; 
+}
+
+a.terms{
+    color: black;
+}
+
+div.form{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    padding-left:10px;
+    box-shadow: 1px 0px 3px grey;
+}
+
+.btnLogin,.btnSignIn{
+    margin: 5px 25% 5px 25% ;
+    color: white;
+    background: black ;
+    border: none;
+    opacity: 1;
+    transition: 0.2s linear;
+    width: 50%;
+    height: 40px;
+}
+
+.btnLogin:hover,.btnSignIn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.otherWay{
+    font-size: 13px;
+    text-align: center;
+    color: grey; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+}
+
+
+.gotAccount,.noAccount{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.gotAccount a,.noAccount a{
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #EEEEEE; 
+    font-size: 12px;
+    transition: 0.2s linear;
+    text-shadow:none;
+}
+
+.gotAccount a:hover,.noAccount a:hover{
+    opacity: 0.8;
+}
+
+.showPass1 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-250%);
+    cursor: pointer;
+}
+
+.showPass2 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.showPass3 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(20%);
+    cursor: pointer;
+}
